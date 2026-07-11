@@ -22,7 +22,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import InspectionCard from '../components/InspectionCard';
-import NewInspectionModal from '../components/NewInspectionModal';
+import NewInspectionModal from '../components/NewInspectionModel';
 import { Inspection } from '../types';
 import { mockDb } from '../services/localService';
 
